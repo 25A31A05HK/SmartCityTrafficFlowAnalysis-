@@ -2,103 +2,139 @@
 
 ### SDG 11 – Sustainable Cities and Communities
 
+**An Intelligent Traffic Monitoring and Route Optimization System using C++ and Data Structures & Algorithms.**
+
+---
+
+## 🌐 Project Links
+
+- **Live Prototype:** [View Smart City Traffic Dashboard](https://25A31A05GR.github.io/SmartCityTrafficFlowAnalysis/)
+- **GitHub Repository:** [View Source Code](https://github.com/25A31A05GR/SmartCityTrafficFlowAnalysis)
+
+---
+
 ## 📌 Project Overview
 
-Smart City Traffic Flow Analysis is a C++ based traffic management simulation designed to analyze city road networks, identify traffic congestion points, and calculate optimized routes.
+Smart City Traffic Flow Analysis is a traffic management simulation designed to analyze city road networks, monitor traffic conditions, identify congested intersections and find optimized routes.
 
-The project uses important Data Structures and Algorithms concepts to simulate intelligent traffic monitoring.
+The project uses important Data Structures and Algorithms concepts to simulate intelligent traffic monitoring and improve transportation efficiency.
+
+It consists of a C++ console-based application and an interactive web-based prototype.
 
 ## 🎯 Objectives
 
-- Analyze city road networks.
-- Find shortest paths between intersections.
-- Store traffic sensor information.
-- Identify highly congested junctions.
-- Estimate traffic levels using historical averages.
-- Explore efficient graph traversal techniques.
+- Analyze traffic conditions at different city intersections.
+- Identify highly congested roads and junctions.
+- Find shortest paths between locations.
+- Organize and process traffic sensor information.
+- Estimate traffic levels using historical data.
+- Demonstrate how technology can support smart city development.
 
-## ⚙️ Technologies Used
+## 🛠️ Technologies Used
 
 - C++
-- Data Structures
-- Algorithms
-- Graph Theory
-- Standard Template Library (STL)
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- GitHub
+- GitHub Pages
 
-## 🧠 Algorithms and Data Structures
+## 🧠 Data Structures and Algorithms Used
 
 | Concept | Application |
 |---|---|
-| Graph | City road network |
-| Floyd-Warshall | All-pairs shortest paths |
-| Dijkstra | Single-source shortest path |
-| Hash Map | Traffic sensor storage |
-| Priority Queue | Top K congested junctions |
-| BFS | Graph traversal |
-| DFS | Graph traversal |
-| Stack | Route reconstruction |
-| Queue | BFS implementation |
-| Linked List | Traffic history |
-| Sorting | Congestion ranking |
-| Searching | Junction identification |
-| Dynamic Programming | Floyd-Warshall algorithm |
+| Graph | Represents the city road network |
+| Floyd-Warshall Algorithm | Finds shortest paths between all pairs of junctions |
+| Dijkstra's Algorithm | Finds shortest path from a source junction |
+| Hash Map | Stores traffic information using junction IDs |
+| Priority Queue | Identifies highly congested intersections |
+| Breadth First Search (BFS) | Traverses the city network |
+| Depth First Search (DFS) | Explores connected junctions |
+| Linked List | Maintains traffic update history |
+| Sorting | Arranges junctions based on congestion |
+| Searching | Finds a junction by its name |
 
-## ✨ Key Features
+## ⭐ Key Features
 
-1. Display city road network.
-2. Calculate all-pairs shortest paths.
-3. Find optimized routes using Dijkstra.
-4. Update traffic sensor information.
-5. Display traffic data.
-6. Identify top K congested intersections.
-7. Estimate future traffic levels using historical averages.
-8. Perform BFS and DFS traversal.
-9. Search for junctions.
-10. Display traffic update history.
-11. Rank intersections by congestion.
+1. **City Road Network:** Represents city intersections and roads using a graph.
+2. **Traffic Monitoring:** Updates vehicle count and average speed at junctions.
+3. **Congestion Detection:** Identifies low, moderate and heavy traffic conditions.
+4. **Shortest Route Finding:** Calculates optimized routes using graph algorithms.
+5. **Top K Congested Junctions:** Displays the most congested intersections.
+6. **Traffic History:** Maintains previous traffic updates.
+7. **Traffic Estimation:** Calculates historical average traffic levels.
+8. **Interactive Dashboard:** Provides a visual representation of the traffic management system.
 
-## 🏙️ Sample City Junctions
+## 🗺️ Sample City Network
+
+The project uses six sample junctions:
 
 - Main
 - Railway
-- BusStand
+- Bus Stand
 - College
 - Hospital
 - Market
 
-## ▶️ How to Run
+Road connections are represented using a weighted graph, where weights indicate simulated road distances.
+
+## 💻 How to Run the C++ Program
 
 ### Requirements
-- Windows OS
-- VS Code
-- MSYS2 UCRT64 GCC compiler
+- Visual Studio Code
+- C++ Compiler (G++)
+- C++17 support
 
-### Compile
+### Compilation
 
 ```bash
-g++ -std=c++17 main.cpp -o traffic.exe
+g++ -std=c++17 -Wall -Wextra main.cpp -o traffic.exe
 ```
 
-### Execute
+### Execution
+
+On Windows:
+
+```bash
+traffic.exe
+```
+
+Or in the MSYS2 UCRT64 terminal:
 
 ```bash
 ./traffic.exe
 ```
 
-## 📊 Project Scope
+## 🌐 How to Access the Web Prototype
 
-This project currently uses simulated road and traffic sensor data. Traffic estimates are based on historical averages. Actual live sensor integration and machine-learning-based forecasting can be added in future versions.
+Open the live prototype using the link below:
+
+[Smart City Traffic Dashboard](https://25A31A05GR.github.io/SmartCityTrafficFlowAnalysis/)
+
+The dashboard demonstrates simulated traffic updates, congestion analysis, shortest route calculation and historical traffic estimation.
+
+## 📊 Expected Outcome
+
+The project demonstrates how Data Structures and Algorithms can be applied to traffic management problems. It provides a simulation of traffic monitoring, congestion identification and shortest-route calculation for a smart city environment.
 
 ## 🌍 Sustainable Development Goal
 
 **SDG 11 – Sustainable Cities and Communities**
 
-This project demonstrates how algorithms and data structures can support efficient urban transportation and traffic management.
+This project supports the concept of sustainable urban transportation through efficient traffic analysis and route optimization.
 
-## 👩‍💻 Project Domain
+## 👩‍💻 Project Information
 
-Data Structures and Algorithms using C++
+**Project Title:** Smart City Traffic Flow Analysis
+
+**Programming Language:** C++
+
+**Project Domain:** Data Structures and Algorithms
+
+**Prototype:** HTML, CSS and JavaScript
 
 ---
 
-**Smart City Traffic Flow Analysis – Making Urban Transportation Smarter! 🚦**
+### 🚀 Smart Traffic. Better Routes. Sustainable Cities.
+
